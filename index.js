@@ -16,7 +16,7 @@ productsList.push(choosenProducts);
 let totalPrice = 0;
 for (let item of productsList) {
     totalPrice += item.price;
-    console.log('We have ' + item.name + ' for ' + item.price + '$');
+    console.log( item.name + ' costs ' + item.price + '$');
 }
 
 console.log('Total price: ' + totalPrice + '$');
